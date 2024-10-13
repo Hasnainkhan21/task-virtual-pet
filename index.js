@@ -1,10 +1,12 @@
 var pet = {
-    name: "Cat",
-    age: 5,
-    happiness: 84,
-    hunger: 45,
+    name: prompt("What is your pet name"),
+    type: prompt("what kind of pet is it"),
+    age: +prompt("how old is yor pet"),
+    happiness: +prompt("how happy is your pet"),
+    hunger: +prompt("how hungry is your pet"),
     feed: function() {
-        alert("the feeding is" + this.hunger - 20);
+        prompt("What do you want ro d with suzi \n 1.Feed \n 2.Play \n 3.Age \n 4.Quit")
+        
     },
 
     play: function() {
@@ -16,3 +18,4 @@ var pet = {
     }
 };
 console.log(pet)
+console.log(pet.feed());
