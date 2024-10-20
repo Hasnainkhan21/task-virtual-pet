@@ -1,4 +1,4 @@
-var pet = {
+    var pet = {
     name: prompt("What is your pet name"),
     type: prompt("What kind of pet is it"),
     age: +prompt("How old is your pet"),
@@ -36,4 +36,4 @@ console.log(pet);
 pet.feed();
 pet.play();
 pet.agePet();
-pet.quite()
+pet.quite();
